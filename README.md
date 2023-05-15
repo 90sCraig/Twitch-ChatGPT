@@ -35,15 +35,15 @@ TlM0RR+LCAAAAAAABADtfely4zqS7v8bcd+BUzdOzEzMQR0AJEiiY2aiLZW1eamyZC1WV0cHNkosU0tr
 ```
 2. Follow the on-screen prompts to import the actions
 3. After importing, update the following actions and their variables:
- - _ChatGPT API Handler
-     - Set argument `chatGPT3APIkey` to your [OpenAI API key](https://platform.openai.com/account/api-keys)
-     - Set argument `model` to gpt-3.5-turbo or gpt-4
-     - Update argument `behavior` to match your chatbots personality
- - Discord.Go Live
-     - Set argument `inputGPT` to prompt GPT to announce that you are going Live
-     - Set argument `discordWebHookUrl` to your discord webhook Url
+     - _ChatGPT API Handler
+         - Set argument `chatGPT3APIkey` to your [OpenAI API key](https://platform.openai.com/account/api-keys)
+         - Set argument `model` to gpt-3.5-turbo or gpt-4
+         - Update argument `behavior` to match your chatbots personality
+     - Discord.Go Live
+         - Set argument `inputGPT` to prompt GPT to announce that you are going Live
+         - Set argument `discordWebHookUrl` to your discord webhook Url
 4. Creat a chat command and connect it to the action `Twitch.Chat Response`
- - example: !chatGPT or you can even add an action so your chat bot responds when someone @'s them by adding a trigger for `@ChatBotsName`
+     - example: `!chatGPT` or you can even add an action so your chat bot responds when someone @'s them by adding a trigger for `@ChatBotsName`
 5. Connect other actions to their associated events in Streamer.bot (I may expand on this later)
   
 ## Contribution
