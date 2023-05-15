@@ -1,6 +1,6 @@
 ![Twitch Status](https://img.shields.io/twitch/status/90s_Craig?style=social) ![Mastodon Follow](https://img.shields.io/mastodon/follow/109502511665426028?domain=https%3A%2F%2Fpb.craignt.com&style=social) 
 
-# Twitch-ChatGPT
+# Twitch-ChatGPT bot using Streamer.bot
 Twitch-ChatGPT is a customizable Twitch bot powered by ChatGPT and integrated with Streamer.bot, designed to enrich your Twitch streams with dynamic and personalized responses.
 
 > ⚠️ This project requires an OpenAI Key, which is a paid service.
