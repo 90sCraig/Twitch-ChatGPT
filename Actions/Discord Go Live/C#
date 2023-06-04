@@ -1,0 +1,87 @@
+using System;
+using System.Collections.Generic;
+using System.Net.Http;
+using Newtonsoft.Json;
+
+public class CPHInline
+{
+    public bool Execute()
+    {
+		var channelName = args["channelName"].ToString();
+        var channelTitle = args["targetChannelTitle"].ToString();
+        var channelCategory = args["game"].ToString();
+		var channelColor = args["channelColor.html"].ToString();
+		var channelPicture = args["targetUserProfileImageUrl"].ToString();
+		var pingRole = args["finalGPT"].ToString();
+		string content = pingRole.ToLower().Contains("everyone") ? "@everyone" : $"{pingRole}";
+        var webhook = new DiscordWebhook{Content = content, Embeds = new List<Embed>{new Embed{Title = $"{channelName} is live on Twitch!", Description = channelTitle, Url = $"https://twitch.tv/{channelName}", Color = Convert.ToInt32(channelColor.Remove(0,1), 16), Fields = new List<Field>{new Field{Name = "Category", Value = channelCategory, Inline = true, }}, Author = new Author{Name = channelName, Url = $"https://twitch.tv/{channelName}", IconUrl = channelPicture, }, Thumbnail = new Thumbnail{Url = $"https://static-cdn.jtvnw.net/ttv-boxart/{System.Net.WebUtility.UrlEncode(channelCategory).Replace("+", "%20")}.jpg"}, }}};
+        string json = JsonConvert.SerializeObject(webhook);
+        using var client = new HttpClient();
+        var x = client.PostAsync(args["discordWebHookUrl"].ToString(), new StringContent(json, System.Text.Encoding.UTF8, "application/json")).Result;
+        CPH.LogInfo(x.Content.ReadAsStringAsync().Result);
+		return true;
+    }
+}
+
+public partial class DiscordWebhook
+{
+    [JsonProperty("content")]
+    public string Content { get; set; }
+
+    [JsonProperty("embeds")]
+    public List<Embed> Embeds { get; set; }
+}
+
+public partial class Embed
+{
+    [JsonProperty("title")]
+    public string Title { get; set; }
+
+    [JsonProperty("description")]
+    public string Description { get; set; }
+
+    [JsonProperty("url")]
+    public string Url { get; set; }
+
+    [JsonProperty("color")]
+    public long Color { get; set; }
+
+    [JsonProperty("fields")]
+    public List<Field> Fields { get; set; }
+
+    [JsonProperty("author")]
+    public Author Author { get; set; }
+
+    [JsonProperty("thumbnail")]
+    public Thumbnail Thumbnail { get; set; }
+}
+
+public partial class Author
+{
+    [JsonProperty("name")]
+    public string Name { get; set; }
+
+    [JsonProperty("url")]
+    public string Url { get; set; }
+
+    [JsonProperty("icon_url")]
+    public string IconUrl { get; set; }
+}
+
+public partial class Field
+{
+    [JsonProperty("name")]
+    public string Name { get; set; }
+
+    [JsonProperty("value")]
+    public string Value { get; set; }
+
+    [JsonProperty("inline")]
+    public bool Inline { get; set; }
+}
+
+public partial class Thumbnail
+{
+    [JsonProperty("url")]
+    public string Url { get; set; }
+}
