@@ -1,6 +1,6 @@
 ![Twitch Status](https://img.shields.io/twitch/status/90s_Craig?style=social) ![Mastodon Follow](https://img.shields.io/mastodon/follow/109502511665426028?domain=https%3A%2F%2Fpb.craignt.com&style=social) 
 
-# Twitch-ChatGPT bot using Streamer.bot
+# Twitch-ChatGPT bot using Streamer.bot (0.2.0)
 Twitch-ChatGPT is a customizable Twitch bot powered by ChatGPT and integrated with Streamer.bot, designed to enrich your Twitch streams with dynamic and personalized responses.
 
 > ⚠️ This project requires an OpenAI Key, which is a paid service.
@@ -17,6 +17,10 @@ Twitch-ChatGPT handles a variety of responses and notifications, including:
 + Twitch follow response
 + Twitch sub/re-sub/gift sub response
 + Twitch raid announcement
++ **Bot timeout** - Triggered via a channel points redemption.
++ **Backseat warning** - Activated with a chat/whisper command, helps in maintaining chat etiquette.
++ **Language Warning** - Automatically triggers a warning when a predefined inappropriate word is detected in the chat.
++ **Response Length Control** - Now you can control the length of each action's response using the outputLength variable; specify the number of characters in the response instead of using tokens.
 
 ## Why Twitch-ChatGPT?
 Twitch-ChatGPT introduces a unique and engaging element to Twitch streams. Instead of repeating the same canned responses, ChatGPT allows for the generation of dynamic, context-appropriate responses, boosting viewer engagement and stream quality. This project aims to make this powerful tool easily accessible and integratable into your streams by providing a single point of reference for all ChatGPT interactions.
