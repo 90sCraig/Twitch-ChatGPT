@@ -3,6 +3,8 @@
 # Twitch-ChatGPT bot using Streamer.bot (0.2.0)
 Twitch-ChatGPT is a customizable Twitch bot powered by ChatGPT and integrated with Streamer.bot, designed to enrich your Twitch streams with dynamic and personalized responses.
 
+You can test the bot on my Twitch page as it is running all the time. Use !askcraig https://www.twitch.tv/90s_craig 
+
 This is a pet project and you may experience bugs that I may, or may not be able to fix. But if you experience issues, or have ideas/suggestions, you can contact me on my [Discord Server](https://discord.gg/bYDxFf3akk)
 
 > ⚠️ This project requires an OpenAI Key, which is a paid service.
