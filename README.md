@@ -85,6 +85,7 @@ Engage with Twitch-ChatGPT at minimal costs associated with OpenAI API usage:
 ## 🛑 Troubleshooting: Smooth Streamer.bot Twitch Integration
 - **gpt-4 API Access:** No OpenAI Plus account needed, but [bill at least $1 on gpt-3.5-turbo API to access gpt-4 API](https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4).
 - **`temperature` Variable:** Format as "0.9", not "0,9".
+- Further support is available on the [90s Craig Discord Server](https://discord.gg/bYDxFf3akk) in the #tech-and-ai channel
 
 ## 🙏 Credits
 - [Streamer.bot](https://streamer.bot)
