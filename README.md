@@ -54,6 +54,8 @@ U0JBRR+LCAAAAAAABADtfelSXEmy5v8xm3fIrjHZ7bbpUMW+lHVfa0ACEklUASJZrtraYiVTnFw6FxC6
      - Discord.Go Live
          - Set argument `inputGPT` to prompt GPT to announce that you are going Live
          - Set argument `discordWebHookUrl` to your discord webhook Url
+     - All Other Actions
+         - Set argument `outputLength` to your desired number of characters for your ChatGPT bot's response
 4. Creat a chat command and connect it to the action `Twitch.Chat Response`
      - example: `!chatGPT` or you can even add an action so your chat bot responds when someone @'s them by adding a trigger for `@ChatBotsName`
 5. Connect other actions to their associated events in Streamer.bot (I may expand on this later)
@@ -78,6 +80,11 @@ The use of this project involves the following costs related to the OpenAI API u
 + Tokens are pieces of words, where 1,000 tokens are roughly equivalent to 750 words. The behavior will also use tokens, so the longer you make it the more it will cost.
 
 To get an API key you can signup [here on the OpenAI Platform](https://platform.openai.com/account/api-keys)
+
+## Troubleshooting
+While this is mostly straightforward, there are a few issues that have come up:
++ gpt-4 API access: You do not need to purchase an OpenAI Plus account for this, but you DO need to use the gpt-3.5-turbo API enough to be [billed at least $1 to gain access to the gpt-4 API](https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4)
++ When setting the `temperature` variable, make sure it is formatted as "0.9" and NOT "0,9". Using a comma will cause the request to OpenAI to fail
 
 ## Credits
 
