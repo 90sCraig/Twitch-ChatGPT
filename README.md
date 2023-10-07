@@ -10,8 +10,6 @@ Twitch-ChatGPT is not just another **Twitch Chat Bot**; it's a doorway to a more
 
 Encountered an issue or have a brilliant idea to share? We'd love to hear from you! Join the [90s Craig Discord Server](https://discord.gg/bYDxFf3akk) where I'd be more than happy to assist and discuss. Whether you need help with setup, want to share your exciting new use case, or discuss potential features, the #tech-and-ai channel is the place to connect and get the support you need. So, don't hesitate, [join us on Discord](https://discord.gg/bYDxFf3akk) and be part of the community!
 
-> ⚠️ **Prerequisite:** Access to a paid OpenAI Key is required to unleash the full potential of Twitch-ChatGPT.
-
 ## 🤖 Live Demo: Experience the Dynamic Twitch Chat Bot
 Test drive Twitch-ChatGPT live on my Twitch page:
 - **URL:** [https://www.twitch.tv/90s_craig](https://www.twitch.tv/90s_craig)
