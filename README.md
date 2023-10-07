@@ -13,7 +13,10 @@ Encountered an issue or have a brilliant idea to share? We'd love to hear from y
 ## 🤖 Live Demo: Experience the Dynamic Twitch Chat Bot
 Test drive Twitch-ChatGPT live on my Twitch page:
 - **URL:** [https://www.twitch.tv/90s_craig](https://www.twitch.tv/90s_craig)
-- **Chat Command:** `!askcraig how are you today robot?`
+- **Commands to try:**
+    - `!askcraig how are you today robot?`
+    - `@90s_Craigbot tell me a joke`
+    - `!bs @90s_Craig`
 
 ## 🚀 Features: More Than Just a Customizable Twitch Bot
 Twitch-ChatGPT boasts a plethora of features ensuring a rich and **Automated Twitch Chat Moderation** and interaction, including:
