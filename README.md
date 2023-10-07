@@ -71,7 +71,7 @@ Contributions, issues, and feature requests are welcome! Check the issues page t
 - Twitch Shout Out Integration
 
 ## 📌 Notes
-- Customize TTS implementation to suit your needs.
+- Customize TTS implementation to suit your needs, this is likely broken in the current state.
 - I am not a professional programmer; this project is a compilation and adaptation of beneficial resources.
 
 ## 💵 Costs
