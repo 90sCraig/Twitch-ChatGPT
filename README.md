@@ -1,7 +1,7 @@
 ![Twitch Status](https://img.shields.io/twitch/status/90s_Craig?style=social) ![Mastodon Follow](https://img.shields.io/mastodon/follow/109502511665426028?domain=https%3A%2F%2Fpb.craignt.com&style=social) 
 
 # Twitch-ChatGPT bot using Streamer.bot (0.2.0)
-Twitch-ChatGPT is a customizable Twitch bot powered by ChatGPT and integrated with Streamer.bot, designed to enrich your Twitch streams with dynamic and personalized responses.
+Twitch-ChatGPT is a customizable Twitch bot powered by ChatGPT and integrated with Streamer.bot, designed to bring an intellegent chat bot to your Twitch streams with dynamic and personalized responses.
 
 This is a pet project and you may experience bugs that I may, or may not be able to fix. But if you experience issues, or have ideas/suggestions, you can contact me on my [Discord Server](https://discord.gg/bYDxFf3akk)
 
