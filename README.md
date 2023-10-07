@@ -3,6 +3,8 @@
 # Twitch-ChatGPT bot using Streamer.bot (0.2.0)
 Twitch-ChatGPT is a customizable Twitch bot powered by ChatGPT and integrated with Streamer.bot, designed to bring an intellegent chat bot to your Twitch streams with dynamic and personalized responses.
 
+Twitch-ChatGPT enhances your stream by providing a layer of interaction and spontaneity that canned responses cannot achieve.
+
 This is a pet project and you may experience bugs that I may, or may not be able to fix. But if you experience issues, or have ideas/suggestions, you can contact me on my [Discord Server](https://discord.gg/bYDxFf3akk)
 
 > ⚠️ This project requires an OpenAI Key, which is a paid service.
@@ -13,10 +15,6 @@ You can test the bot on my Twitch page as it is running all the time.
 + Go to: https://www.twitch.tv/90s_craig 
 + Type in chat:
 > !askcraig how are you today robot?
-
-## Description
-This project is a compilation of existing code that has been adapted to utilize the capabilities of ChatGPT, OpenAI's powerful language model, for managing notifications and responses during Twitch streams. Twitch-ChatGPT enhances your stream by providing a layer of interaction and spontaneity that canned responses cannot achieve.
-Elements include:
 
 ## Features
 Twitch-ChatGPT handles a variety of responses and notifications, including:
